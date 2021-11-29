@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-antd",
+  "name": "vite-react-ssr",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
