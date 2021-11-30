@@ -3,7 +3,7 @@ import ReactDOMServer from 'react-dom/server'
 import './index.less'
 import App from './App'
 
-export function render() {
+export function render(url: string, context: Record<string, any>) {
   return ReactDOMServer.renderToString(
     <React.StrictMode>
       <App />
