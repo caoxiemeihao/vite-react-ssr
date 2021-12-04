@@ -70,7 +70,7 @@ async function createServer(
     } catch (error) {
       vite.ssrFixStacktrace(error)
       console.log(error)
-      res.status(500).end(e.message)
+      res.status(500).end(error.message)
     }
   });
 
